@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AchieveSuite">
+  <test name="AchieveTest">
+   <parameter name="url" value="https://www.achieve3000.com/"/>
+   <parameter name="browser" value="Chrome"/>
+    <classes>
+  	<class name="TestCases.TC_001"/>
+    </classes>
+  </test>
+</suite>
